@@ -1,0 +1,47 @@
+Ishira v11.01 User Edit Account Testing: Error in updating email
+
+[Summary]
+
+[Precondition]
+ Software version: Ishira v11.01
+ Software configuration: Default Settings
+ Hardware specifications: Android smartphone, as APK
+ Network configuration: Any
+
+[Steps to reproduce]
+ 1. Login to user account
+ 2. Open user profile settings
+ 3. Click on edit account details
+ 4. Edit pre-existing email address
+ 5. Click confirm
+
+[Actual results]
+Returns error in updating account “operation is not allowed”
+
+[Expected results]
+Update user email address with verification
+
+[Additional information]
+A screenshot of the user profile setting with the error message
+
+[Is this Breakage?]
+ No
+ 
+[Previous code tested]
+IS.011.01
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. Impacts users ability to change email address
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Seldom
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+SETTINGS-004
+
+[Impact Sizing (in days)]
+ Less than a day
+
