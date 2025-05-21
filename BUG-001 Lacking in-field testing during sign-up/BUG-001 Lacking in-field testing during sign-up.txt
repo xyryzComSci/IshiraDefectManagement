@@ -1,0 +1,47 @@
+Ishira v11.01 Organization Sign-Up Testing: Lacking in-field testing during sign-up
+
+[Summary]
+
+[Precondition]
+ Software version: Ishira v11.01
+ Software configuration: Default Settings
+ Hardware specifications: Personal Computer, as website
+ Network configuration: Any
+
+[Steps to reproduce]
+ 1. Open organizations website link
+ 2. Sign-up new account
+ 3. Navigate to contact number
+ 4. Input invalid contact number
+ 5. Submit sign-up
+
+[Actual results]
+Account created despite invalid form of contact number
+
+[Expected results]
+Error message stating only valid contact number format will be accepted
+
+[Additional information]
+A screenshot of the signup contact number field and profile of created organization proving saved invalid contact number.
+
+[Is this Breakage?]
+ No
+ 
+[Previous code tested]
+IS.011.01
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. Somewhat impacts external communication using contact information
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Seldom 
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+REG-002
+
+[Impact Sizing (in days)]
+ Less than a day
+

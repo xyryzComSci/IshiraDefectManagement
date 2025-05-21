@@ -1,0 +1,55 @@
+Ishira v11.01 ORGMGMT-013 Manage Pets Testing: New Pet Addition – Misaligned text box for breed
+
+[Summary]
+The text box for entering the breed during new pet registration is visually misaligned in the UI.
+
+[Precondition]
+
+Software version: Ishira v11.01
+
+Software configuration: Default Settings
+
+Hardware specifications: Android smartphone, as APK
+
+Network configuration: Any
+
+[Steps to reproduce]
+
+Login to organization account
+
+Navigate to Manage Pets
+
+Click on Add New Pet
+
+Scroll to the breed input field
+
+[Actual results]
+The breed text box appears misaligned and not consistent with other input fields.
+
+[Expected results]
+The breed text box should be properly aligned and visually consistent with other form elements.
+
+[Additional information]
+Screenshot highlighting the misalignment of the breed input field.
+
+[Is this Breakage?]
+No
+
+[Previous code tested]
+IS.011.01
+
+[Severity: How does this problem impact the customer/user?]
+6. Impacts visual clarity and user experience in form completion
+
+[Likelihood: How often will a customer/user use this feature/function?]
+8. Often
+
+[Repeatability: Is this problem easily reproducible?]
+10. 100% Reproducible
+
+[Impacted Test Cases]
+ORGMGMT-013
+
+[Impact Sizing (in days)]
+Less than a day
+

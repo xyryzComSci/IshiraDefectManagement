@@ -1,0 +1,49 @@
+Ishira v11.01 Inbox Testing: Message Threads Display – Cross-Organization Chat Threads Visible Across Accounts
+[Summary]
+ Chat threads from one organization are visible to other organizations, violating data segregation expectations.
+[Precondition]
+Software version: Ishira v11.01
+
+
+Software configuration: Default Settings
+
+
+Hardware specifications: Personal Computer, as Website
+
+
+Network configuration: Any
+
+
+[Steps to reproduce]
+Login to organization account A
+
+
+Navigate to the Inbox
+
+
+View available message threads
+
+
+Notice message threads involving unrelated organizations
+
+
+[Actual results]
+ Chat threads from other organizations are visible to the logged-in organization account.
+[Expected results]
+ Organization account users should only see message threads belonging to their own organization.
+[Additional information]
+ Screenshot showing message threads from unrelated organizations in the inbox view.
+[Is this Breakage?]
+ No
+[Previous code tested]
+ IS.011.01
+[Severity: How does this problem impact the customer/user?]
+Impacts data privacy and trust in organizational separation
+[Likelihood: How often will a customer/user use this feature/function?]
+Often
+[Repeatability: Is this problem easily reproducible?]
+100% Reproducible
+[Impacted Test Cases]
+ MSG-001
+[Impact Sizing (in days)]
+ Less than a day

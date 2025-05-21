@@ -1,0 +1,53 @@
+Ishira v11.01 AUTH-003 Login Testing: Login Persistence Across App Restarts – Application fails to persist after restart
+
+[Summary]
+Application fails to retain user login session after restarting the app.
+
+[Precondition]
+
+Software version: Ishira v11.01
+
+Software configuration: Default Settings
+
+Hardware specifications: Android smartphone, as APK
+
+Network configuration: Any
+
+[Steps to reproduce]
+
+Login to user account
+
+Close the application completely
+
+Reopen the application
+
+[Actual results]
+User is logged out and prompted to log in again.
+
+[Expected results]
+User remains logged in and is taken to the home screen without needing to re-authenticate.
+
+[Additional information]
+A screenshot of the login screen appearing upon app restart.
+
+[Is this Breakage?]
+No
+
+[Previous code tested]
+IS.011.01
+
+[Severity: How does this problem impact the customer/user?]
+6. Impacts users ability to maintain session continuity
+
+[Likelihood: How often will a customer/user use this feature/function?]
+6. Often
+
+[Repeatability: Is this problem easily reproducible?]
+10. 100% Reproducible
+
+[Impacted Test Cases]
+AUTH-003
+
+[Impact Sizing (in days)]
+Less than a day
+

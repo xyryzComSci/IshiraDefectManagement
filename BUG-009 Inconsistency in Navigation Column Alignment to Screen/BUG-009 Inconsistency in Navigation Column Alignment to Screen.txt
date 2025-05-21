@@ -1,0 +1,49 @@
+Ishira v11.01 Organization Dashboard Testing: Inconsistency in Navigation Column Alignment to Screen
+[Summary]
+ The navigation column on the Organization Dashboard does not consistently align with the screen edge or layout grid, creating a visually unbalanced interface.
+[Precondition]
+Software version: Ishira v11.01
+
+
+Software configuration: Default Settings
+
+
+Hardware specifications: Personal Computer, as Website
+
+
+Network configuration: Any
+
+
+[Steps to reproduce]
+Login to organization account
+
+
+Navigate to the Organization Dashboard
+
+
+Observe the placement of the navigation column across different dashboard sections
+
+
+Compare alignment with screen edges and content grid
+
+
+[Actual results]
+ Navigation column appears shifted or unevenly spaced in some sections of the dashboard.
+[Expected results]
+ Navigation column should maintain consistent alignment with the screen layout across all views.
+[Additional information]
+ Screenshots showing misaligned navigation column in different dashboard sections.
+[Is this Breakage?]
+ No
+[Previous code tested]
+ IS.011.01
+[Severity: How does this problem impact the customer/user?]
+ Affects visual uniformity and may reduce perceived app quality
+[Likelihood: How often will a customer/user use this feature/function?]
+ Often
+[Repeatability: Is this problem easily reproducible?]
+ 100% Reproducible
+[Impacted Test Cases]
+ UI-006
+[Impact Sizing (in days)]
+ Less than a day

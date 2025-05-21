@@ -1,0 +1,54 @@
+Ishira v11.01 ACCESS-004 Pet Testing: Pet Profile Information Display – Pet profile indicates a different/wrong organization
+
+[Summary]
+Pet profile displays incorrect organization information that does not match the assigned or expected organization for the pet.
+
+[Precondition]
+
+Software version: Ishira v11.01
+
+Software configuration: Default Settings
+
+Hardware specifications: Android smartphone, as APK
+
+Network configuration: Any
+
+[Steps to reproduce]
+
+Login to user account
+
+Navigate to the pet section
+
+Select a pet from the list
+
+View pet profile details
+
+[Actual results]
+Pet profile shows an organization different from the one the pet belongs to.
+
+[Expected results]
+Pet profile should accurately display the correct assigned organization.
+
+[Additional information]
+A screenshot of the pet profile showing the incorrect organization.
+
+[Is this Breakage?]
+No
+
+[Previous code tested]
+IS.011.01
+
+[Severity: How does this problem impact the customer/user?]
+6. Impacts user trust and data accuracy related to pet records
+
+[Likelihood: How often will a customer/user use this feature/function?]
+6. Often
+
+[Repeatability: Is this problem easily reproducible?]
+10. 100% Reproducible
+
+[Impacted Test Cases]
+ACCESS-004
+
+[Impact Sizing (in days)]
+Less than a day
